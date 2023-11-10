@@ -55,3 +55,45 @@ $string['monthly'] = 'monatlich';
 
 $string['notify-participants'] = 'Teilnehmer über Pflichtdokument informieren';
 $string['messageprovider:notify'] = 'Mitteilung zum Pflichtdokument';
+
+$string['default_infotext'] = 'Durch Anklicken des Buttons "Als erledigt kennzeichnen" <b>bestätigen</b> Sie, den Inhalt des angeführten Dokuments gelesen und verstanden zu haben.';
+$string['default_first_mail_subject'] = 'Pflichtdokument {DOCNAME} muss gelesen werden';
+$string['default_first_mail_content'] = 'Guten Tag {FIRSTNAME} {LASTNAME}, 
+<br/><br/>
+folgendes Pflichtdokument muss von Ihnen gelesen und als verstanden markiert werden:
+<br/><br/>
+{DOCNAME}
+<br/><br/>
+Bitte loggen Sie sich in den unten stehenden Kurs ein und lesen das Pflichtdokument aufmerksam und sorgfältig. Anschließend markieren Sie das Pflichtdokument bitte als verstanden. Bei Fragen wenden Sie sich bitte an den/die Kursbetreuer/in.
+<br/><br/>
+{COURSELINK}
+<br/><br/>
+Mit freundlichen Grüßen
+<br/><br/>
+Ihr/e Kursbetreuer/in
+';
+$string['default_second_mail_subject'] = 'Erinnerung! - Pflichtdokument {DOCNAME} muss gelesen werden';
+$string['default_second_mail_content'] = 'Guten Tag {FIRSTNAME} {LASTNAME}, 
+<br/><br/>
+folgendes Pflichtdokument muss von Ihnen gelesen und als verstanden markiert werden:
+<br/><br/>
+{DOCNAME}
+<br/><br/>
+Bitte loggen Sie sich in den unten stehenden Kurs ein und lesen das Pflichtdokument aufmerksam und sorgfältig. Anschließend markieren Sie das Pflichtdokument bitte als verstanden. Bei Fragen wenden Sie sich bitte an den/die Kursbetreuer/in.
+<br/><br/>
+{COURSELINK}
+<br/><br/>
+Mit freundlichen Grüßen
+<br/><br/>
+Ihr/e Kursbetreuer/in
+';
+$string['default_responsible_mail_subject'] = 'Pflichtdokument {DOCNAME} - max. Anzahl Benachrichtigungen erreicht';
+$string['default_responsible_mail_content'] = 'Folgende Person hat nicht reagiert:
+{FIRSTNAME} {LASTNAME} - {DOCNAME}';
+$string['default_overview_mail_subject'] = 'Übersicht über Pflichtdokument {DOCNAME}';
+$string['default_overview_mail_content'] = 'Das Enddatum zum Lesen des Pflichtdokuments ist erreicht. 
+<br/><br/>
+Unter dem folgenden Link erhalten Sie eine Übersicht aller Teilnehmer. Ein Export ist unterhalb der Tabelle zu finden.
+<br/><br/>
+{OVERVIEWLINK}
+';
