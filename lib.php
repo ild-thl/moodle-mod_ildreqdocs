@@ -39,8 +39,8 @@ function ildreqdocs_supports($feature) {
             return false;
         case FEATURE_SHOW_DESCRIPTION:
             return false;
-        case FEATURE_MOD_PURPOSE:
-            return MOD_PURPOSE_COMMUNICATION;
+        //case FEATURE_MOD_PURPOSE:
+            //return MOD_PURPOSE_COMMUNICATION;
         default:
             return null;
     }
